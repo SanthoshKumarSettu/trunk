@@ -37,4 +37,9 @@ public class AboutActivity extends Activity
 	    return super.onKeyDown(keyCode, event);
 	}
 
+    /***
+     * i have done changes in about activity
+     *
+     */
+
 }
