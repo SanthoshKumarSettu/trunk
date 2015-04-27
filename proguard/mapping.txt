@@ -1,0 +1,1299 @@
+android.support.v4.app.BackStackRecord -> android.support.v4.app.a:
+    android.support.v4.app.FragmentManagerImpl mManager -> a
+    android.support.v4.app.BackStackRecord$Op mHead -> b
+    android.support.v4.app.BackStackRecord$Op mTail -> c
+    int mNumOp -> d
+    int mEnterAnim -> e
+    int mExitAnim -> f
+    int mPopEnterAnim -> g
+    int mPopExitAnim -> h
+    int mTransition -> i
+    int mTransitionStyle -> j
+    boolean mAddToBackStack -> k
+    boolean mAllowAddToBackStack -> l
+    java.lang.String mName -> m
+    boolean mCommitted -> n
+    int mIndex -> o
+    int mBreadCrumbTitleRes -> p
+    java.lang.CharSequence mBreadCrumbTitleText -> q
+    int mBreadCrumbShortTitleRes -> r
+    java.lang.CharSequence mBreadCrumbShortTitleText -> s
+    java.lang.String toString() -> toString
+    void dump$ec96877(java.lang.String,java.io.PrintWriter) -> a
+    void dump(java.lang.String,java.io.PrintWriter,boolean) -> a
+    void addOp(android.support.v4.app.BackStackRecord$Op) -> a
+    android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment,java.lang.String) -> a
+    android.support.v4.app.FragmentTransaction detach(android.support.v4.app.Fragment) -> a
+    android.support.v4.app.FragmentTransaction attach(android.support.v4.app.Fragment) -> b
+    void bumpBackStackNesting(int) -> a
+    int commit() -> a
+    void run() -> run
+    void popFromBackStack$1385ff() -> b
+android.support.v4.app.BackStackRecord$Op -> android.support.v4.app.b:
+    android.support.v4.app.BackStackRecord$Op next -> a
+    android.support.v4.app.BackStackRecord$Op prev -> b
+    int cmd -> c
+    android.support.v4.app.Fragment fragment -> d
+    int enterAnim -> e
+    int exitAnim -> f
+    int popEnterAnim -> g
+    int popExitAnim -> h
+    java.util.ArrayList removed -> i
+android.support.v4.app.BackStackState -> android.support.v4.app.BackStackState:
+    int[] mOps -> a
+    int mTransition -> b
+    int mTransitionStyle -> c
+    java.lang.String mName -> d
+    int mIndex -> e
+    int mBreadCrumbTitleRes -> f
+    java.lang.CharSequence mBreadCrumbTitleText -> g
+    int mBreadCrumbShortTitleRes -> h
+    java.lang.CharSequence mBreadCrumbShortTitleText -> i
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    android.support.v4.app.BackStackRecord instantiate(android.support.v4.app.FragmentManagerImpl) -> a
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.BackStackState$1 -> android.support.v4.app.c:
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.Fragment -> android.support.v4.app.Fragment:
+    java.util.HashMap sClassMap -> P
+    int mState -> a
+    android.view.View mAnimatingAway -> b
+    int mStateAfterAnimating -> c
+    android.os.Bundle mSavedFragmentState -> d
+    android.util.SparseArray mSavedViewState -> e
+    int mIndex -> f
+    java.lang.String mWho -> g
+    android.os.Bundle mArguments -> h
+    android.support.v4.app.Fragment mTarget -> i
+    int mTargetIndex -> j
+    int mTargetRequestCode -> k
+    boolean mAdded -> l
+    boolean mRemoving -> m
+    boolean mResumed -> n
+    boolean mFromLayout -> o
+    boolean mInLayout -> p
+    boolean mRestored -> q
+    int mBackStackNesting -> r
+    android.support.v4.app.FragmentManagerImpl mFragmentManager -> s
+    android.support.v4.app.FragmentActivity mActivity -> t
+    android.support.v4.app.FragmentManagerImpl mChildFragmentManager -> u
+    android.support.v4.app.Fragment mParentFragment -> v
+    int mFragmentId -> w
+    int mContainerId -> x
+    java.lang.String mTag -> y
+    boolean mHidden -> z
+    boolean mDetached -> A
+    boolean mRetainInstance -> B
+    boolean mRetaining -> C
+    boolean mHasMenu -> D
+    boolean mMenuVisible -> E
+    boolean mCalled -> F
+    int mNextAnim -> G
+    android.view.ViewGroup mContainer -> H
+    android.view.View mView -> I
+    android.view.View mInnerView -> J
+    boolean mDeferStart -> K
+    boolean mUserVisibleHint -> L
+    android.support.v4.app.LoaderManagerImpl mLoaderManager -> M
+    boolean mLoadersStarted -> N
+    boolean mCheckedForLoaderManager -> O
+    android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String) -> a
+    android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String,android.os.Bundle) -> a
+    void restoreViewState$79e5e33f() -> a
+    void setIndex(int,android.support.v4.app.Fragment) -> a
+    boolean isInBackStack() -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    android.content.res.Resources getResources() -> c
+    boolean isDetached() -> d
+    void onHiddenChanged$1385ff() -> e
+    void onActivityResult$6eb84b52() -> f
+    android.view.LayoutInflater getLayoutInflater$2ee30c11() -> g
+    void onInflate$423a76cd() -> h
+    void onAttach$63a22f9() -> i
+    android.view.animation.Animation onCreateAnimation$24236ca7() -> j
+    void onViewCreated$65f1d89() -> k
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onLowMemory() -> onLowMemory
+    void initState() -> l
+    void onDetach() -> m
+    void onDestroyOptionsMenu() -> n
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    void performCreate(android.os.Bundle) -> a
+    android.view.View performCreateView$469ccb8a() -> o
+    void performActivityCreated$79e5e33f() -> p
+    void performStart() -> q
+    void performResume() -> r
+    void performConfigurationChanged(android.content.res.Configuration) -> a
+    void performLowMemory() -> s
+    boolean performCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> a
+    boolean performPrepareOptionsMenu(android.view.Menu) -> a
+    boolean performOptionsItemSelected(android.view.MenuItem) -> a
+    boolean performContextItemSelected(android.view.MenuItem) -> b
+    void performOptionsMenuClosed(android.view.Menu) -> b
+    void performSaveInstanceState(android.os.Bundle) -> b
+    void performPause() -> t
+    void performStop() -> u
+    void performReallyStop() -> v
+    void performDestroyView() -> w
+    void performDestroy() -> x
+android.support.v4.app.Fragment$1 -> android.support.v4.app.d:
+    android.support.v4.app.Fragment this$0 -> a
+    android.view.View findViewById(int) -> a
+android.support.v4.app.Fragment$InstantiationException -> android.support.v4.app.e:
+android.support.v4.app.Fragment$SavedState -> android.support.v4.app.Fragment$SavedState:
+    android.os.Bundle mState -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.Fragment$SavedState$1 -> android.support.v4.app.f:
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentActivity -> android.support.v4.app.g:
+    android.os.Handler mHandler -> a
+    android.support.v4.app.FragmentManagerImpl mFragments -> b
+    android.support.v4.app.FragmentContainer mContainer -> c
+    boolean mCreated -> d
+    boolean mResumed -> e
+    boolean mStopped -> f
+    boolean mReallyStopped -> g
+    boolean mRetaining -> h
+    boolean mOptionsMenuInvalidated -> i
+    boolean mCheckedForLoaderManager -> j
+    boolean mLoadersStarted -> k
+    java.util.HashMap mAllLoaderManagers -> l
+    android.support.v4.app.LoaderManagerImpl mLoaderManager -> m
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onBackPressed() -> onBackPressed
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreatePanelMenu(int,android.view.Menu) -> onCreatePanelMenu
+    android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet) -> onCreateView
+    void onDestroy() -> onDestroy
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onLowMemory() -> onLowMemory
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void onPanelClosed(int,android.view.Menu) -> onPanelClosed
+    void onPause() -> onPause
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onResume() -> onResume
+    void onPostResume() -> onPostResume
+    boolean onPreparePanel(int,android.view.View,android.view.Menu) -> onPreparePanel
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void supportInvalidateOptionsMenu() -> a
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> dump
+    java.lang.String viewToString(android.view.View) -> a
+    void dumpViewHierarchy(java.lang.String,java.io.PrintWriter,android.view.View) -> a
+    void doReallyStop(boolean) -> a
+    void onAttachFragment$65850823() -> b
+    void startActivityForResult(android.content.Intent,int) -> startActivityForResult
+    void invalidateSupportFragment(java.lang.String) -> a
+    android.support.v4.app.LoaderManagerImpl getLoaderManager$2cd5ab55(java.lang.String) -> b
+android.support.v4.app.FragmentActivity$FragmentTag -> android.support.v4.app.h:
+    int[] Fragment -> a
+android.support.v4.app.FragmentActivity$NonConfigurationInstances -> android.support.v4.app.i:
+    java.lang.Object activity -> a
+    java.lang.Object custom -> b
+    java.util.HashMap children -> c
+    java.util.ArrayList fragments -> d
+    java.util.HashMap loaders -> e
+android.support.v4.app.FragmentContainer -> android.support.v4.app.j:
+    android.view.View findViewById(int) -> a
+android.support.v4.app.FragmentManager -> android.support.v4.app.k:
+    android.support.v4.app.FragmentTransaction beginTransaction() -> a
+    boolean executePendingTransactions() -> b
+    android.support.v4.app.Fragment findFragmentByTag(java.lang.String) -> a
+android.support.v4.app.FragmentManagerImpl -> android.support.v4.app.l:
+    boolean DEBUG -> a
+    boolean HONEYCOMB -> b
+    java.util.ArrayList mPendingActions -> c
+    java.lang.Runnable[] mTmpActions -> d
+    boolean mExecutingActions -> e
+    java.util.ArrayList mActive -> f
+    java.util.ArrayList mAdded -> g
+    java.util.ArrayList mAvailIndices -> h
+    java.util.ArrayList mBackStack -> i
+    java.util.ArrayList mCreatedMenus -> j
+    java.util.ArrayList mBackStackIndices -> k
+    java.util.ArrayList mAvailBackStackIndices -> l
+    java.util.ArrayList mBackStackChangeListeners -> m
+    int mCurState -> n
+    android.support.v4.app.FragmentActivity mActivity -> o
+    android.support.v4.app.FragmentContainer mContainer -> p
+    android.support.v4.app.Fragment mParent -> q
+    boolean mNeedMenuInvalidate -> r
+    boolean mStateSaved -> s
+    boolean mDestroyed -> t
+    java.lang.String mNoTransactionsBecause -> u
+    boolean mHavePendingDeferredStart -> v
+    android.os.Bundle mStateBundle -> w
+    android.util.SparseArray mStateArray -> x
+    java.lang.Runnable mExecCommit -> y
+    android.view.animation.Interpolator DECELERATE_QUINT -> z
+    android.view.animation.Interpolator DECELERATE_CUBIC -> A
+    android.view.animation.Interpolator ACCELERATE_QUINT -> B
+    android.view.animation.Interpolator ACCELERATE_CUBIC -> C
+    void throwException(java.lang.RuntimeException) -> a
+    android.support.v4.app.FragmentTransaction beginTransaction() -> a
+    boolean executePendingTransactions() -> b
+    boolean popBackStackImmediate() -> c
+    android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String) -> a
+    java.lang.String toString() -> toString
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    android.view.animation.Animation makeOpenCloseAnimation$376f30fd(float,float,float,float) -> a
+    android.view.animation.Animation makeFadeAnimation$424ea1bd(float,float) -> a
+    android.view.animation.Animation loadAnimation(android.support.v4.app.Fragment,int,boolean,int) -> a
+    void moveToState(android.support.v4.app.Fragment,int,int,int,boolean) -> a
+    void moveToState(android.support.v4.app.Fragment) -> a
+    void moveToState$2563266(int) -> d
+    void moveToState(int,int,int,boolean) -> a
+    void startPendingDeferredFragments() -> r
+    void addFragment(android.support.v4.app.Fragment,boolean) -> a
+    void removeFragment(android.support.v4.app.Fragment,int,int) -> a
+    void hideFragment(android.support.v4.app.Fragment,int,int) -> b
+    void showFragment(android.support.v4.app.Fragment,int,int) -> c
+    void detachFragment(android.support.v4.app.Fragment,int,int) -> d
+    void attachFragment(android.support.v4.app.Fragment,int,int) -> e
+    android.support.v4.app.Fragment findFragmentById(int) -> a
+    android.support.v4.app.Fragment findFragmentByTag(java.lang.String) -> a
+    void checkStateLoss() -> s
+    void enqueueAction$574583f(java.lang.Runnable) -> a
+    int allocBackStackIndex(android.support.v4.app.BackStackRecord) -> a
+    void setBackStackIndex(int,android.support.v4.app.BackStackRecord) -> a
+    void freeBackStackIndex(int) -> b
+    boolean execPendingActions() -> d
+    void reportBackStackChanged() -> t
+    void addBackStackState(android.support.v4.app.BackStackRecord) -> b
+    java.util.ArrayList retainNonConfig() -> e
+    void saveFragmentViewState(android.support.v4.app.Fragment) -> b
+    android.os.Parcelable saveAllState() -> f
+    void restoreAllState(android.os.Parcelable,java.util.ArrayList) -> a
+    void attachActivity(android.support.v4.app.FragmentActivity,android.support.v4.app.FragmentContainer,android.support.v4.app.Fragment) -> a
+    void noteStateNotSaved() -> g
+    void dispatchCreate() -> h
+    void dispatchActivityCreated() -> i
+    void dispatchStart() -> j
+    void dispatchResume() -> k
+    void dispatchPause() -> l
+    void dispatchStop() -> m
+    void dispatchReallyStop() -> n
+    void dispatchDestroyView() -> o
+    void dispatchDestroy() -> p
+    void dispatchConfigurationChanged(android.content.res.Configuration) -> a
+    void dispatchLowMemory() -> q
+    boolean dispatchCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> a
+    boolean dispatchPrepareOptionsMenu(android.view.Menu) -> a
+    boolean dispatchOptionsItemSelected(android.view.MenuItem) -> a
+    boolean dispatchContextItemSelected(android.view.MenuItem) -> b
+    void dispatchOptionsMenuClosed(android.view.Menu) -> b
+    int reverseTransit(int) -> c
+android.support.v4.app.FragmentManagerImpl$1 -> android.support.v4.app.m:
+    android.support.v4.app.FragmentManagerImpl this$0 -> a
+    void run() -> run
+android.support.v4.app.FragmentManagerImpl$5 -> android.support.v4.app.n:
+    android.support.v4.app.Fragment val$fragment -> a
+    android.support.v4.app.FragmentManagerImpl this$0 -> b
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+android.support.v4.app.FragmentManagerState -> android.support.v4.app.FragmentManagerState:
+    android.support.v4.app.FragmentState[] mActive -> a
+    int[] mAdded -> b
+    android.support.v4.app.BackStackState[] mBackStack -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.FragmentManagerState$1 -> android.support.v4.app.o:
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentState -> android.support.v4.app.FragmentState:
+    java.lang.String mClassName -> a
+    int mIndex -> b
+    boolean mFromLayout -> c
+    int mFragmentId -> d
+    int mContainerId -> e
+    java.lang.String mTag -> f
+    boolean mRetainInstance -> g
+    boolean mDetached -> h
+    android.os.Bundle mArguments -> i
+    android.os.Bundle mSavedFragmentState -> j
+    android.support.v4.app.Fragment mInstance -> k
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    android.support.v4.app.Fragment instantiate(android.support.v4.app.FragmentActivity,android.support.v4.app.Fragment) -> a
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.FragmentState$1 -> android.support.v4.app.p:
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentTabHost -> android.support.v4.app.FragmentTabHost:
+    java.util.ArrayList mTabs -> a
+    android.content.Context mContext -> b
+    android.support.v4.app.FragmentManager mFragmentManager -> c
+    int mContainerId -> d
+    android.widget.TabHost$OnTabChangeListener mOnTabChangeListener -> e
+    android.support.v4.app.FragmentTabHost$TabInfo mLastTab -> f
+    boolean mAttached -> g
+    void setup() -> setup
+    void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener) -> setOnTabChangedListener
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void onTabChanged(java.lang.String) -> onTabChanged
+    android.support.v4.app.FragmentTransaction doTabChanged(java.lang.String,android.support.v4.app.FragmentTransaction) -> a
+android.support.v4.app.FragmentTabHost$SavedState -> android.support.v4.app.FragmentTabHost$SavedState:
+    java.lang.String curTab -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String toString() -> toString
+android.support.v4.app.FragmentTabHost$SavedState$1 -> android.support.v4.app.q:
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentTabHost$TabInfo -> android.support.v4.app.r:
+    java.lang.String tag -> a
+    java.lang.Class clss -> b
+    android.os.Bundle args -> c
+    android.support.v4.app.Fragment fragment -> d
+android.support.v4.app.FragmentTransaction -> android.support.v4.app.s:
+    android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment,java.lang.String) -> a
+    android.support.v4.app.FragmentTransaction detach(android.support.v4.app.Fragment) -> a
+    android.support.v4.app.FragmentTransaction attach(android.support.v4.app.Fragment) -> b
+    int commit() -> a
+android.support.v4.app.LoaderManager -> android.support.v4.app.t:
+    boolean hasRunningLoaders() -> a
+android.support.v4.app.LoaderManager$LoaderCallbacks -> android.support.v4.app.u:
+    android.support.v4.content.Loader onCreateLoader$e57f803() -> a
+android.support.v4.app.LoaderManagerImpl -> android.support.v4.app.v:
+    boolean DEBUG -> a
+    android.support.v4.util.SparseArrayCompat mLoaders -> b
+    android.support.v4.util.SparseArrayCompat mInactiveLoaders -> c
+    java.lang.String mWho -> d
+    android.support.v4.app.FragmentActivity mActivity -> e
+    boolean mStarted -> f
+    boolean mRetaining -> g
+    void updateActivity(android.support.v4.app.FragmentActivity) -> a
+    void doStart() -> b
+    void doStop() -> c
+    void doRetain() -> d
+    void finishRetain() -> e
+    void doReportNextStart() -> f
+    void doReportStart() -> g
+    void doDestroy() -> h
+    java.lang.String toString() -> toString
+    void dump$ec96877$79f041d6(java.lang.String,java.io.PrintWriter) -> a
+    boolean hasRunningLoaders() -> a
+android.support.v4.app.LoaderManagerImpl$LoaderInfo -> android.support.v4.app.w:
+    int mId -> a
+    android.os.Bundle mArgs -> b
+    android.support.v4.app.LoaderManager$LoaderCallbacks mCallbacks -> c
+    android.support.v4.content.Loader mLoader -> d
+    boolean mHaveData -> e
+    boolean mDeliveredData -> f
+    java.lang.Object mData -> g
+    boolean mStarted -> h
+    boolean mRetaining -> i
+    boolean mRetainingStarted -> j
+    boolean mReportNextStart -> k
+    boolean mDestroyed -> l
+    boolean mListenerRegistered -> m
+    android.support.v4.app.LoaderManagerImpl$LoaderInfo mPendingLoader -> n
+    android.support.v4.app.LoaderManagerImpl this$0 -> o
+    void stop() -> a
+    void destroy() -> b
+    void callOnLoadFinished(android.support.v4.content.Loader,java.lang.Object) -> a
+    java.lang.String toString() -> toString
+    void dump$ec96877$79f041d6(java.lang.String,java.io.PrintWriter) -> a
+android.support.v4.app.NoSaveStateFrameLayout -> android.support.v4.app.x:
+    android.view.ViewGroup wrap(android.view.View) -> a
+    void dispatchSaveInstanceState(android.util.SparseArray) -> dispatchSaveInstanceState
+    void dispatchRestoreInstanceState(android.util.SparseArray) -> dispatchRestoreInstanceState
+android.support.v4.app.SuperNotCalledException -> android.support.v4.app.y:
+android.support.v4.content.Loader -> android.support.v4.a.a:
+    int mId -> a
+    android.support.v4.content.Loader$OnLoadCompleteListener mListener -> b
+    boolean mStarted -> c
+    boolean mAbandoned -> d
+    boolean mReset -> e
+    boolean mContentChanged -> f
+    void unregisterListener(android.support.v4.content.Loader$OnLoadCompleteListener) -> a
+    java.lang.String toString() -> toString
+android.support.v4.content.Loader$OnLoadCompleteListener -> android.support.v4.a.b:
+android.support.v4.os.ParcelableCompat -> android.support.v4.b.a:
+android.support.v4.os.ParcelableCompat$CompatCreator -> android.support.v4.b.b:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorCallbacks -> android.support.v4.b.c:
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+    java.lang.Object[] newArray(int) -> a
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2 -> android.support.v4.b.d:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.util.DebugUtils -> android.support.v4.c.a:
+    void buildShortClassTag(java.lang.Object,java.lang.StringBuilder) -> a
+android.support.v4.util.LogWriter -> android.support.v4.c.b:
+    java.lang.String mTag -> a
+    java.lang.StringBuilder mBuilder -> b
+    void close() -> close
+    void flush() -> flush
+    void write(char[],int,int) -> write
+    void flushBuilder() -> a
+android.support.v4.util.SparseArrayCompat -> android.support.v4.c.c:
+    java.lang.Object DELETED -> a
+    boolean mGarbage -> b
+    int[] mKeys -> c
+    java.lang.Object[] mValues -> d
+    int mSize -> e
+    void gc() -> c
+    int size() -> a
+    int keyAt(int) -> a
+    java.lang.Object valueAt(int) -> b
+    void clear() -> b
+android.support.v4.view.KeyEventCompat -> android.support.v4.view.a:
+    android.support.v4.view.KeyEventCompat$KeyEventVersionImpl IMPL -> a
+    boolean hasModifiers$79c6ddc0(android.view.KeyEvent) -> a
+    boolean hasNoModifiers(android.view.KeyEvent) -> b
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl -> android.support.v4.view.b:
+    int metaStateFilterDirectionalModifiers$2e71581f(int,int,int,int) -> a
+    int normalizeMetaState(int) -> c
+    boolean metaStateHasModifiers$255f299(int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl -> android.support.v4.view.c:
+    boolean metaStateHasModifiers$255f299(int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl -> android.support.v4.view.d:
+    boolean metaStateHasModifiers$255f299(int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.MotionEventCompat -> android.support.v4.view.e:
+    android.support.v4.view.MotionEventCompat$MotionEventVersionImpl IMPL -> a
+    int getActionIndex(android.view.MotionEvent) -> a
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl -> android.support.v4.view.f:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl -> android.support.v4.view.g:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl -> android.support.v4.view.h:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.PagerAdapter -> android.support.v4.view.i:
+    android.database.DataSetObservable mObservable -> a
+    int getCount() -> a
+    void destroyItem$30510aeb() -> b
+    boolean isViewFromObject$171eb1dd() -> c
+android.support.v4.view.VelocityTrackerCompat -> android.support.v4.view.j:
+    android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl IMPL -> a
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl -> android.support.v4.view.k:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl -> android.support.v4.view.l:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl -> android.support.v4.view.m:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.ViewCompat -> android.support.v4.view.n:
+    android.support.v4.view.ViewCompat$ViewCompatImpl IMPL -> a
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    void setLayerType$7672597b(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$BaseViewCompatImpl -> android.support.v4.view.o:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    long getFrameTime() -> a
+    void setLayerType$7672597b(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$GBViewCompatImpl -> android.support.v4.view.p:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompat$HCViewCompatImpl -> android.support.v4.view.q:
+    long getFrameTime() -> a
+    void setLayerType$7672597b(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$ICSViewCompatImpl -> android.support.v4.view.r:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+android.support.v4.view.ViewCompat$JBViewCompatImpl -> android.support.v4.view.s:
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl -> android.support.v4.view.t:
+android.support.v4.view.ViewCompat$ViewCompatImpl -> android.support.v4.view.u:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    void setLayerType$7672597b(android.view.View,int) -> b
+android.support.v4.view.ViewPager -> android.support.v4.view.ViewPager:
+    int[] LAYOUT_ATTRS -> a
+    java.util.Comparator COMPARATOR -> b
+    android.view.animation.Interpolator sInterpolator -> c
+    java.util.ArrayList mItems -> d
+    android.support.v4.view.ViewPager$ItemInfo mTempItem -> e
+    android.graphics.Rect mTempRect -> f
+    android.support.v4.view.PagerAdapter mAdapter -> g
+    int mCurItem -> h
+    int mRestoredCurItem -> i
+    android.os.Parcelable mRestoredAdapterState -> j
+    java.lang.ClassLoader mRestoredClassLoader -> k
+    android.widget.Scroller mScroller -> l
+    android.support.v4.view.ViewPager$PagerObserver mObserver -> m
+    int mPageMargin -> n
+    android.graphics.drawable.Drawable mMarginDrawable -> o
+    int mTopPageBounds -> p
+    int mBottomPageBounds -> q
+    float mFirstOffset -> r
+    float mLastOffset -> s
+    int mChildWidthMeasureSpec -> t
+    int mChildHeightMeasureSpec -> u
+    boolean mInLayout -> v
+    boolean mScrollingCacheEnabled -> w
+    boolean mPopulatePending -> x
+    int mOffscreenPageLimit -> y
+    boolean mIsBeingDragged -> z
+    boolean mIsUnableToDrag -> A
+    int mDefaultGutterSize -> B
+    int mGutterSize -> C
+    int mTouchSlop -> D
+    float mLastMotionX -> E
+    float mLastMotionY -> F
+    float mInitialMotionX -> G
+    float mInitialMotionY -> H
+    int mActivePointerId -> I
+    android.view.VelocityTracker mVelocityTracker -> J
+    int mMinimumVelocity -> K
+    int mMaximumVelocity -> L
+    int mFlingDistance -> M
+    int mCloseEnough -> N
+    boolean mFakeDragging -> O
+    android.support.v4.widget.EdgeEffectCompat mLeftEdge -> P
+    android.support.v4.widget.EdgeEffectCompat mRightEdge -> Q
+    boolean mFirstLayout -> R
+    boolean mNeedCalculatePageOffsets -> S
+    boolean mCalledSuper -> T
+    int mDecorChildCount -> U
+    android.support.v4.view.ViewPager$OnPageChangeListener mOnPageChangeListener -> V
+    android.support.v4.view.ViewPager$OnPageChangeListener mInternalPageChangeListener -> W
+    android.support.v4.view.ViewPager$OnAdapterChangeListener mAdapterChangeListener -> Z
+    android.support.v4.view.ViewPager$PageTransformer mPageTransformer -> aa
+    java.lang.reflect.Method mSetChildrenDrawingOrderEnabled -> ab
+    int mDrawingOrder -> ac
+    java.util.ArrayList mDrawingOrderedChildren -> ad
+    android.support.v4.view.ViewPager$ViewPositionComparator sPositionComparator -> ae
+    java.lang.Runnable mEndScrollRunnable -> af
+    int mScrollState -> ag
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void setScrollState(int) -> setScrollState
+    void setAdapter(android.support.v4.view.PagerAdapter) -> setAdapter
+    android.support.v4.view.PagerAdapter getAdapter() -> getAdapter
+    void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener) -> setOnAdapterChangeListener
+    void setCurrentItem(int) -> setCurrentItem
+    void setCurrentItem$2563266(int) -> setCurrentItem$2563266
+    int getCurrentItem() -> getCurrentItem
+    void setCurrentItemInternal(int,boolean,boolean) -> a
+    void setCurrentItemInternal(int,boolean,boolean,int) -> a
+    void scrollToItem(int,boolean,int,boolean) -> a
+    void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener) -> setOnPageChangeListener
+    void setChildrenDrawingOrderEnabledCompat(boolean) -> setChildrenDrawingOrderEnabledCompat
+    int getChildDrawingOrder(int,int) -> getChildDrawingOrder
+    int getOffscreenPageLimit() -> getOffscreenPageLimit
+    void setOffscreenPageLimit(int) -> setOffscreenPageLimit
+    void setPageMargin(int) -> setPageMargin
+    int getPageMargin() -> getPageMargin
+    void setPageMarginDrawable(android.graphics.drawable.Drawable) -> setPageMarginDrawable
+    void setPageMarginDrawable(int) -> setPageMarginDrawable
+    boolean verifyDrawable(android.graphics.drawable.Drawable) -> verifyDrawable
+    void drawableStateChanged() -> drawableStateChanged
+    android.support.v4.view.ViewPager$ItemInfo addNewItem$3af7e890(int) -> a
+    void dataSetChanged() -> a
+    void populate() -> c
+    void populate(int) -> b
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    void removeView(android.view.View) -> removeView
+    android.support.v4.view.ViewPager$ItemInfo infoForChild$31e08638() -> d
+    android.support.v4.view.ViewPager$ItemInfo infoForAnyChild(android.view.View) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForPosition(int) -> c
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void recomputeScrollPosition(int,int,int,int) -> a
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void computeScroll() -> computeScroll
+    boolean pageScrolled$134632() -> e
+    void onPageScrolled$486775f1() -> f
+    void completeScroll(boolean) -> a
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean performDrag(float) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForCurrentScrollPosition() -> g
+    void draw(android.graphics.Canvas) -> draw
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSecondaryPointerUp(android.view.MotionEvent) -> a
+    void endDrag() -> h
+    void setScrollingCacheEnabled(boolean) -> setScrollingCacheEnabled
+    boolean canScroll(android.view.View,boolean,int,int,int) -> a
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean arrowScroll(int) -> d
+    android.graphics.Rect getChildRectInPagerCoordinates(android.graphics.Rect,android.view.View) -> a
+    boolean pageLeft() -> i
+    void addFocusables(java.util.ArrayList,int,int) -> addFocusables
+    void addTouchables(java.util.ArrayList) -> addTouchables
+    boolean onRequestFocusInDescendants(int,android.graphics.Rect) -> onRequestFocusInDescendants
+    boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    int[] access$400() -> b
+android.support.v4.view.ViewPager$1 -> android.support.v4.view.v:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.ViewPager$2 -> android.support.v4.view.w:
+    float getInterpolation(float) -> getInterpolation
+android.support.v4.view.ViewPager$Decor -> android.support.v4.view.x:
+android.support.v4.view.ViewPager$ItemInfo -> android.support.v4.view.y:
+    java.lang.Object object -> a
+    int position -> b
+    boolean scrolling -> c
+    float widthFactor -> d
+    float offset -> e
+android.support.v4.view.ViewPager$LayoutParams -> android.support.v4.view.z:
+    boolean isDecor -> a
+    int gravity -> b
+    float widthFactor -> c
+    boolean needsMeasure -> d
+    int position -> e
+    int childIndex -> f
+android.support.v4.view.ViewPager$OnAdapterChangeListener -> android.support.v4.view.aa:
+android.support.v4.view.ViewPager$OnPageChangeListener -> android.support.v4.view.ab:
+android.support.v4.view.ViewPager$PageTransformer -> android.support.v4.view.ac:
+android.support.v4.view.ViewPager$PagerObserver -> android.support.v4.view.ad:
+    android.support.v4.view.ViewPager this$0 -> a
+    void onChanged() -> onChanged
+    void onInvalidated() -> onInvalidated
+android.support.v4.view.ViewPager$SavedState -> android.support.v4.view.ViewPager$SavedState:
+    int position -> a
+    android.os.Parcelable adapterState -> b
+    java.lang.ClassLoader loader -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String toString() -> toString
+android.support.v4.view.ViewPager$SavedState$1 -> android.support.v4.view.ae:
+    java.lang.Object[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+android.support.v4.view.ViewPager$ViewPositionComparator -> android.support.v4.view.af:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.widget.EdgeEffectCompat -> android.support.v4.d.a:
+    java.lang.Object mEdgeEffect -> a
+    android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl IMPL -> b
+    void setSize(int,int) -> a
+    boolean isFinished() -> a
+    void finish() -> b
+    boolean onPull(float) -> a
+    boolean onRelease() -> c
+    boolean draw(android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl -> android.support.v4.d.b:
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl -> android.support.v4.d.c:
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl -> android.support.v4.d.d:
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+com.dealersaleschannel.tv.AboutActivity -> com.dealersaleschannel.tv.AboutActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.dealersaleschannel.tv.AutoResizeTextView -> com.dealersaleschannel.tv.AutoResizeTextView:
+    com.dealersaleschannel.tv.AutoResizeTextView$OnTextResizeListener mTextResizeListener -> a
+    boolean mNeedsResize -> b
+    float mTextSize -> c
+    float mMaxTextSize -> d
+    float mMinTextSize -> e
+    float mCalculatedTextSize -> f
+    float mSpacingMult -> g
+    float mSpacingAdd -> h
+    boolean mAddEllipsis -> i
+    boolean noWrap -> j
+    float getCalculatedTextSize() -> getCalculatedTextSize
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void setOnResizeListener(com.dealersaleschannel.tv.AutoResizeTextView$OnTextResizeListener) -> setOnResizeListener
+    void setTextSize(float) -> setTextSize
+    void setTextSize(int,float) -> setTextSize
+    void setLineSpacing(float,float) -> setLineSpacing
+    void setMaxTextSize(float) -> setMaxTextSize
+    float getMaxTextSize() -> getMaxTextSize
+    void setMinTextSize(float) -> setMinTextSize
+    float getMinTextSize() -> getMinTextSize
+    void setAddEllipsis(boolean) -> setAddEllipsis
+    boolean getAddEllipsis() -> getAddEllipsis
+    void setNoWrap(boolean) -> setNoWrap
+    boolean getNoWrap() -> getNoWrap
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    int getTextHeight(java.lang.CharSequence,android.text.TextPaint,int,float) -> a
+    int getTextWidth(java.lang.CharSequence,android.text.TextPaint,float) -> a
+com.dealersaleschannel.tv.AutoResizeTextView$OnTextResizeListener -> com.dealersaleschannel.tv.a:
+com.dealersaleschannel.tv.DataHandler -> com.dealersaleschannel.tv.b:
+    java.util.ArrayList theSlides -> b
+    com.dealersaleschannel.tv.Slide currSlide -> c
+    boolean isText -> d
+    boolean isName -> e
+    java.lang.StringBuilder currentNameStringBuilder -> f
+    java.lang.StringBuilder currentTextStringBuilder -> g
+    java.lang.StringBuilder currText -> h
+    boolean isInitialLoad -> a
+    int nodeCount -> i
+    void startDocument() -> startDocument
+    void endDocument() -> endDocument
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+    void characters(char[],int,int) -> characters
+    java.util.ArrayList getData(java.lang.String) -> a
+com.dealersaleschannel.tv.DownloadFile -> com.dealersaleschannel.tv.c:
+    java.lang.String status -> a
+    boolean syncing -> b
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.dealersaleschannel.tv.EncryptionTools -> com.dealersaleschannel.tv.d:
+    java.lang.String characterEncoding -> a
+    java.lang.String cipherTransformation -> b
+    java.lang.String aesEncryptionAlgorithm -> c
+    byte[] getKeyBytes(java.lang.String) -> a
+com.dealersaleschannel.tv.EquipmentActivity -> com.dealersaleschannel.tv.EquipmentActivity:
+    android.content.Intent returnIntent -> a
+    long remaining -> b
+    long lastUpdate -> c
+    java.util.Timer timer -> d
+    com.dealersaleschannel.tv.Slide slide -> e
+    com.dealersaleschannel.tv.UtilityFunctions utils -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void createCustomBackgroundInfoBottomTableRightSlide(boolean,boolean,boolean) -> a
+    void createCustomBackgroundInfoTopTableRightSlide$49605cbf(boolean,boolean) -> a
+    void createCustomBackGroundInfoBottomNotesRightSlide(boolean) -> a
+    void createCustomBackGroundInfoTopNotesRightSlide(boolean) -> b
+    void setfooterImageViewImageAndLayoutWeight(android.widget.LinearLayout) -> a
+    void setHeaderImageViewImageAndLayoutWeight(android.widget.LinearLayout) -> b
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void pauseActivityTimer() -> a
+    void resumeActivityTimer() -> b
+    void stopTimer() -> c
+    void access$0(com.dealersaleschannel.tv.EquipmentActivity) -> a
+    com.dealersaleschannel.tv.UtilityFunctions access$1(com.dealersaleschannel.tv.EquipmentActivity) -> b
+com.dealersaleschannel.tv.EquipmentActivity$1 -> com.dealersaleschannel.tv.e:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$2 -> com.dealersaleschannel.tv.f:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$3 -> com.dealersaleschannel.tv.g:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$4 -> com.dealersaleschannel.tv.h:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$5 -> com.dealersaleschannel.tv.i:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$6 -> com.dealersaleschannel.tv.j:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$7 -> com.dealersaleschannel.tv.k:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.EquipmentActivity$8 -> com.dealersaleschannel.tv.l:
+    com.dealersaleschannel.tv.EquipmentActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.ImageActivity -> com.dealersaleschannel.tv.ImageActivity:
+    android.content.Intent returnIntent -> a
+    java.util.Timer timer -> b
+    com.dealersaleschannel.tv.Slide slide -> c
+    long remaining -> d
+    long lastUpdate -> e
+    com.dealersaleschannel.tv.UtilityFunctions utils -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void pauseActivityTimer() -> a
+    void resumeActivityTimer() -> b
+    void stopTimer() -> c
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void access$0(com.dealersaleschannel.tv.ImageActivity) -> a
+    com.dealersaleschannel.tv.UtilityFunctions access$1(com.dealersaleschannel.tv.ImageActivity) -> b
+com.dealersaleschannel.tv.ImageActivity$1 -> com.dealersaleschannel.tv.m:
+    com.dealersaleschannel.tv.ImageActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.ImageActivity$2 -> com.dealersaleschannel.tv.n:
+    com.dealersaleschannel.tv.ImageActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.ImageActivity$3 -> com.dealersaleschannel.tv.o:
+    com.dealersaleschannel.tv.ImageActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.Installation -> com.dealersaleschannel.tv.p:
+    java.lang.String sID -> a
+    java.lang.String aID -> b
+    android.location.LocationManager locationManager -> c
+    java.lang.String id(android.content.Context) -> a
+    java.lang.String activation(android.content.Context,java.lang.String) -> a
+    java.lang.String readFile(java.io.File) -> a
+    java.lang.String getLastKnownLocation(android.content.Context) -> b
+com.dealersaleschannel.tv.JsonUtils -> com.dealersaleschannel.tv.q:
+    com.dealersaleschannel.tv.EncryptionTools encryptionTools -> a
+    org.json.JSONObject sendJson(java.lang.String,org.json.JSONObject) -> a
+    org.json.JSONObject SendHttpPost(java.lang.String,org.json.JSONObject) -> b
+    org.json.JSONObject SendHttpGet(java.lang.String) -> a
+    java.lang.String convertStreamToString(java.io.InputStream) -> b
+    java.lang.String access$0(java.io.InputStream) -> a
+com.dealersaleschannel.tv.JsonUtils$1 -> com.dealersaleschannel.tv.r:
+    java.lang.String val$URL -> a
+    org.json.JSONObject val$jsonObjSend -> b
+    org.json.JSONObject call() -> a
+    java.lang.Object call() -> call
+com.dealersaleschannel.tv.JsonUtils$2 -> com.dealersaleschannel.tv.s:
+    java.lang.String val$URL -> a
+    org.json.JSONObject call() -> a
+    java.lang.Object call() -> call
+com.dealersaleschannel.tv.MainActivity -> com.dealersaleschannel.tv.MainActivity:
+    java.io.File dealerTvDir -> a
+    java.io.File configFile -> b
+    java.util.ArrayList slides -> c
+    java.util.concurrent.ScheduledExecutorService scheduler -> d
+    com.dealersaleschannel.tv.DownloadFile downloadConfigFile -> e
+    com.dealersaleschannel.tv.DownloadFile downloadContentFile -> f
+    com.dealersaleschannel.tv.UtilityFunctions utils -> g
+    boolean isSlideShowPlaying -> h
+    boolean isCurrentlyUpdatingTimeInterval -> i
+    int initialDelayForFirstUpdateInSeconds -> j
+    boolean isSlideListLoadedAtLeastOnce -> k
+    int updateFailureRetries -> l
+    boolean isUpdating -> m
+    boolean isSlideListOnInitialLoad -> n
+    android.content.SharedPreferences$OnSharedPreferenceChangeListener listener -> o
+    java.util.concurrent.ScheduledFuture updateConfigFileScheduledFuture -> p
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void selectSplashScreen() -> a
+    void restartActivity() -> b
+    boolean fileExistsOnServer(java.lang.String) -> b
+    java.lang.Boolean CopyFile(java.lang.String,java.lang.String) -> a
+    byte[] toByteArray$17b4c72f(java.io.File) -> a
+    java.io.File getDealerTVDirectory() -> c
+    java.io.File createDealerTvDirectory() -> d
+    boolean updateConfigFile() -> e
+    boolean IsUpdateConfigFileValid(java.lang.String) -> c
+    com.dealersaleschannel.tv.Slide getNextViewableSlide(java.util.ArrayList) -> a
+    java.lang.Boolean IsSlideViewable(com.dealersaleschannel.tv.Slide) -> a
+    void loadSlidesListFromConfigXml() -> f
+    void startSlideShow() -> g
+    boolean isNetworkAvailable() -> h
+    boolean isCMSOnline() -> i
+    boolean isInstallationActivatedAndActiveOnCMS() -> j
+    boolean isInstallationActivated() -> k
+    boolean isInstallationActive() -> l
+    void updateOnSetUpdateInterval() -> m
+    void loadlistInTheBackground() -> n
+    void checkForPendingDownloadsEveryTenSeconds() -> o
+    void checkForNewWeatherEveryFiveMinutes() -> p
+    void LogActivityEveryThirtyMinutes() -> q
+    void startSlideShowOnceViewableSlideBecomesAvailable() -> r
+    java.util.concurrent.ScheduledFuture access$0(com.dealersaleschannel.tv.MainActivity) -> a
+    void access$1(com.dealersaleschannel.tv.MainActivity) -> b
+    boolean access$2(com.dealersaleschannel.tv.MainActivity) -> c
+    void access$3(com.dealersaleschannel.tv.MainActivity) -> d
+    boolean access$4$5e090cae(java.lang.String) -> a
+    boolean access$5(com.dealersaleschannel.tv.MainActivity) -> e
+    boolean access$6(com.dealersaleschannel.tv.MainActivity) -> f
+    void access$7(com.dealersaleschannel.tv.MainActivity) -> g
+    com.dealersaleschannel.tv.DownloadFile access$8(com.dealersaleschannel.tv.MainActivity) -> h
+    void access$9(com.dealersaleschannel.tv.MainActivity,java.lang.String[]) -> a
+    void access$10(com.dealersaleschannel.tv.MainActivity,java.lang.String[]) -> b
+    void access$11(com.dealersaleschannel.tv.MainActivity,com.dealersaleschannel.tv.DownloadFile) -> a
+    boolean access$12(com.dealersaleschannel.tv.MainActivity) -> i
+    boolean access$13(com.dealersaleschannel.tv.MainActivity) -> j
+    boolean access$14(com.dealersaleschannel.tv.MainActivity) -> k
+    boolean access$15(com.dealersaleschannel.tv.MainActivity) -> l
+    void access$16(com.dealersaleschannel.tv.MainActivity) -> m
+    void access$17(com.dealersaleschannel.tv.MainActivity,boolean) -> a
+com.dealersaleschannel.tv.MainActivity$1 -> com.dealersaleschannel.tv.t:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+com.dealersaleschannel.tv.MainActivity$10 -> com.dealersaleschannel.tv.u:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$11 -> com.dealersaleschannel.tv.v:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$12 -> com.dealersaleschannel.tv.w:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$2 -> com.dealersaleschannel.tv.x:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$3 -> com.dealersaleschannel.tv.y:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$4 -> com.dealersaleschannel.tv.z:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$5 -> com.dealersaleschannel.tv.aa:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$6 -> com.dealersaleschannel.tv.ab:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$7 -> com.dealersaleschannel.tv.ac:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$7$1 -> com.dealersaleschannel.tv.ad:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$7$10 -> com.dealersaleschannel.tv.ae:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$11 -> com.dealersaleschannel.tv.af:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$7$12 -> com.dealersaleschannel.tv.ag:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$2 -> com.dealersaleschannel.tv.ah:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$3 -> com.dealersaleschannel.tv.ai:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$7$4 -> com.dealersaleschannel.tv.aj:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$5 -> com.dealersaleschannel.tv.ak:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$7$6 -> com.dealersaleschannel.tv.al:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$7 -> com.dealersaleschannel.tv.am:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$7$8 -> com.dealersaleschannel.tv.an:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.MainActivity$7$9 -> com.dealersaleschannel.tv.ao:
+    com.dealersaleschannel.tv.MainActivity$7 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.MainActivity$8 -> com.dealersaleschannel.tv.ap:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$9 -> com.dealersaleschannel.tv.aq:
+    com.dealersaleschannel.tv.MainActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.MainActivity$9$1 -> com.dealersaleschannel.tv.ar:
+    com.dealersaleschannel.tv.MainActivity$9 this$1 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.PreMainActivity -> com.dealersaleschannel.tv.PreMainActivity:
+    java.lang.Boolean ENABLE_RESTART -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void restartMain() -> a
+com.dealersaleschannel.tv.SettingActivity -> com.dealersaleschannel.tv.SettingActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.dealersaleschannel.tv.SettingsFragment -> com.dealersaleschannel.tv.as:
+    com.dealersaleschannel.tv.UtilityFunctions utils -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+com.dealersaleschannel.tv.Slide -> com.dealersaleschannel.tv.Slide:
+    java.lang.String order -> a
+    java.lang.String contentType -> b
+    java.lang.String backgroundColor -> c
+    java.lang.String displayTime -> d
+    java.lang.String textColor -> e
+    java.lang.String textSize -> f
+    java.lang.String textFileMD5 -> g
+    java.lang.String data -> h
+    java.lang.String headerImage -> i
+    java.lang.String headerImageMD5 -> j
+    java.lang.String footerImage -> k
+    java.lang.String footerImageMD5 -> l
+    java.lang.String make -> m
+    java.lang.String model -> n
+    java.lang.String stock -> o
+    java.lang.String year -> p
+    java.lang.String industry -> q
+    java.lang.String location -> r
+    java.lang.String price -> s
+    java.lang.String hours -> t
+    java.lang.String notes -> u
+    java.lang.String layout -> v
+    java.lang.String backgroundimage -> w
+    java.lang.String equipmentinfohighlightcolor -> x
+    java.lang.String textshadowcolor -> y
+    java.lang.String istextdropshadow -> z
+    java.lang.String ishighlightequipmentinfo -> A
+    java.lang.String backgroundImageMD5 -> B
+    java.lang.String name -> C
+    java.lang.String category -> D
+    java.lang.String salescontact -> E
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.dealersaleschannel.tv.Slide$1 -> com.dealersaleschannel.tv.at:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.dealersaleschannel.tv.SlideOrderComparator -> com.dealersaleschannel.tv.au:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.TextActivity -> com.dealersaleschannel.tv.TextActivity:
+    android.content.Intent returnIntent -> a
+    java.util.Timer timer -> b
+    com.dealersaleschannel.tv.Slide slide -> c
+    long remaining -> d
+    long lastUpdate -> e
+    com.dealersaleschannel.tv.UtilityFunctions utils -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void pauseActivityTimer() -> a
+    void resumeActivityTimer() -> b
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void stopTimer() -> c
+    void access$0(com.dealersaleschannel.tv.TextActivity) -> a
+    com.dealersaleschannel.tv.UtilityFunctions access$1(com.dealersaleschannel.tv.TextActivity) -> b
+com.dealersaleschannel.tv.TextActivity$1 -> com.dealersaleschannel.tv.av:
+    com.dealersaleschannel.tv.TextActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.TextActivity$2 -> com.dealersaleschannel.tv.aw:
+    com.dealersaleschannel.tv.TextActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.TextActivity$3 -> com.dealersaleschannel.tv.ax:
+    com.dealersaleschannel.tv.TextActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.UtilityFunctions -> com.dealersaleschannel.tv.ay:
+    java.lang.String createDownloadParametersCommaSeparatedString(java.util.ArrayList,java.lang.String,java.lang.String) -> a
+    java.lang.String addURLSpecialCharacterEncoding(java.lang.String) -> a
+    java.lang.String getMD5Checksum(java.lang.String,boolean) -> a
+    java.util.ArrayList loadSlidesListFromConfigXml(java.io.File,java.io.File) -> a
+    boolean isInteger(java.lang.String) -> b
+com.dealersaleschannel.tv.VideoActivity -> com.dealersaleschannel.tv.VideoActivity:
+    android.content.Intent returnIntent -> a
+    com.dealersaleschannel.tv.Slide slide -> b
+    android.widget.VideoView videoView -> c
+    com.dealersaleschannel.tv.UtilityFunctions utils -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    com.dealersaleschannel.tv.UtilityFunctions access$0(com.dealersaleschannel.tv.VideoActivity) -> a
+com.dealersaleschannel.tv.VideoActivity$1 -> com.dealersaleschannel.tv.az:
+    com.dealersaleschannel.tv.VideoActivity this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.dealersaleschannel.tv.VideoActivity$2 -> com.dealersaleschannel.tv.ba:
+    com.dealersaleschannel.tv.VideoActivity this$0 -> a
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+com.dealersaleschannel.tv.VideoActivity$3 -> com.dealersaleschannel.tv.bb:
+    com.dealersaleschannel.tv.VideoActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherActivity -> com.dealersaleschannel.tv.WeatherActivity:
+    android.content.Intent returnIntent -> a
+    java.util.Timer timer -> b
+    long remaining -> c
+    long lastUpdate -> d
+    com.dealersaleschannel.tv.Slide slide -> e
+    java.lang.String cmsUrl -> g
+    java.lang.String infoTable -> f
+    java.io.File weatherDir -> h
+    com.dealersaleschannel.tv.UtilityFunctions utils -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void pauseActivityTimer() -> a
+    void resumeActivityTimer() -> b
+    void stopTimer() -> c
+    java.lang.String CreateWeatherInfoTable(java.lang.String,android.content.Context) -> a
+    void access$0(com.dealersaleschannel.tv.WeatherActivity) -> a
+    void access$1(com.dealersaleschannel.tv.WeatherActivity) -> b
+    void access$2(com.dealersaleschannel.tv.WeatherActivity) -> c
+    com.dealersaleschannel.tv.UtilityFunctions access$3(com.dealersaleschannel.tv.WeatherActivity) -> d
+com.dealersaleschannel.tv.WeatherActivity$1 -> com.dealersaleschannel.tv.bc:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherActivity$2 -> com.dealersaleschannel.tv.bd:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+com.dealersaleschannel.tv.WeatherActivity$3 -> com.dealersaleschannel.tv.be:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+com.dealersaleschannel.tv.WeatherActivity$4 -> com.dealersaleschannel.tv.bf:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherActivity$5 -> com.dealersaleschannel.tv.bg:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherActivity$6 -> com.dealersaleschannel.tv.bh:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherActivity$7 -> com.dealersaleschannel.tv.bi:
+    com.dealersaleschannel.tv.WeatherActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherAlert -> com.dealersaleschannel.tv.bj:
+    java.lang.String type -> a
+    java.lang.String description -> b
+    java.lang.String date -> c
+    java.lang.String expires -> d
+    java.lang.String message -> e
+com.dealersaleschannel.tv.WeatherAlerts -> com.dealersaleschannel.tv.bk:
+    java.lang.String cmsUrl -> c
+    java.lang.String weatherAlertsServiceUrl -> d
+    java.util.List weatherAlerts -> a
+    java.lang.String allWeatherAlertsString -> b
+    void GenerateAlertsFromCMSUrl() -> a
+    void GenerateAlertsFromFile(java.io.File) -> a
+com.dealersaleschannel.tv.WeatherAlerts$1 -> com.dealersaleschannel.tv.bl:
+    com.dealersaleschannel.tv.WeatherAlerts this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherAlerts$2 -> com.dealersaleschannel.tv.bm:
+    com.dealersaleschannel.tv.WeatherAlerts this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherCacheControl -> com.dealersaleschannel.tv.bn:
+    java.lang.String readWeatherFile(java.io.File) -> a
+    void writeFile(java.io.File,org.json.JSONObject) -> a
+com.dealersaleschannel.tv.WeatherCurrentConditions -> com.dealersaleschannel.tv.bo:
+    java.lang.String cmsUrl -> k
+    java.lang.String weatherCurrentConditionsServiceUrl -> l
+    java.lang.String weatherAstronomyServiceUrl -> m
+    java.lang.String day -> n
+    java.lang.String weather -> a
+    java.lang.String weatherImage -> b
+    java.lang.String temperature -> c
+    java.lang.String feelsLikeTemperature -> d
+    java.lang.String windInfo -> e
+    java.lang.String sunriseTime -> f
+    java.lang.String sunsetTime -> g
+    java.lang.String location -> h
+    java.lang.String humidity -> i
+    java.lang.String pressure -> j
+com.dealersaleschannel.tv.WeatherCurrentConditions$1 -> com.dealersaleschannel.tv.bp:
+    com.dealersaleschannel.tv.WeatherCurrentConditions this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherCurrentConditions$2 -> com.dealersaleschannel.tv.bq:
+    com.dealersaleschannel.tv.WeatherCurrentConditions this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherCurrentConditions$3 -> com.dealersaleschannel.tv.br:
+    com.dealersaleschannel.tv.WeatherCurrentConditions this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherCurrentConditions$4 -> com.dealersaleschannel.tv.bs:
+    com.dealersaleschannel.tv.WeatherCurrentConditions this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherForecast -> com.dealersaleschannel.tv.bt:
+    java.util.List weather10DayForecast -> a
+    java.lang.String cmsUrl -> b
+    java.lang.String weather10dayForecastServiceUrl -> c
+    void Generate10DayForecastListFromCMSUrl() -> a
+    void Generate10DayForecastListFromFile(java.io.File) -> a
+com.dealersaleschannel.tv.WeatherForecast$1 -> com.dealersaleschannel.tv.bu:
+    com.dealersaleschannel.tv.WeatherForecast this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherForecast$2 -> com.dealersaleschannel.tv.bv:
+    com.dealersaleschannel.tv.WeatherForecast this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherForecastDay -> com.dealersaleschannel.tv.bw:
+    java.lang.String day -> a
+    java.lang.String weather -> b
+    java.lang.String weatherImage -> c
+    java.lang.String highTemperature -> d
+    java.lang.String lowTemperature -> e
+    java.lang.String percentOfPrecipitation -> f
+com.dealersaleschannel.tv.WeatherRadarActivity -> com.dealersaleschannel.tv.WeatherRadarActivity:
+    android.content.Intent returnIntent -> a
+    java.util.Timer timer -> b
+    long remaining -> c
+    long lastUpdate -> d
+    com.dealersaleschannel.tv.Slide slide -> e
+    java.lang.String cmsUrl -> f
+    java.io.File weatherDir -> g
+    com.dealersaleschannel.tv.UtilityFunctions utils -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void pauseActivityTimer() -> a
+    void resumeActivityTimer() -> b
+    void stopTimer() -> c
+    byte[] toByteArray$17b4c72f(java.io.File) -> a
+    void access$0(com.dealersaleschannel.tv.WeatherRadarActivity) -> a
+    boolean access$1$10467595(java.lang.String) -> a
+    void access$2(com.dealersaleschannel.tv.WeatherRadarActivity) -> b
+    void access$3(com.dealersaleschannel.tv.WeatherRadarActivity) -> c
+    com.dealersaleschannel.tv.UtilityFunctions access$4(com.dealersaleschannel.tv.WeatherRadarActivity) -> d
+com.dealersaleschannel.tv.WeatherRadarActivity$1 -> com.dealersaleschannel.tv.bx:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherRadarActivity$2 -> com.dealersaleschannel.tv.by:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+com.dealersaleschannel.tv.WeatherRadarActivity$3 -> com.dealersaleschannel.tv.bz:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.dealersaleschannel.tv.WeatherRadarActivity$4 -> com.dealersaleschannel.tv.ca:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.dealersaleschannel.tv.WeatherRadarActivity$5 -> com.dealersaleschannel.tv.cb:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+com.dealersaleschannel.tv.WeatherRadarActivity$6 -> com.dealersaleschannel.tv.cc:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    void run() -> run
+com.dealersaleschannel.tv.WeatherRadarActivity$7 -> com.dealersaleschannel.tv.cd:
+    com.dealersaleschannel.tv.WeatherRadarActivity this$0 -> a
+    void run() -> run

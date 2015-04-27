@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dealersaleschannel.tv"
+    android:versionCode="20"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="13"
+        android:maxSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="com.google.android.tv" android:required="true"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <!--  activity
+            android:name="com.tomrowe.dealertv.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-->
+         <activity
+            android:name="com.dealersaleschannel.tv.PreMainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dealersaleschannel.tv.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.TextActivity" 
+            android:hardwareAccelerated="false">
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.VideoActivity" >
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.ImageActivity" >
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.EquipmentActivity" 
+            android:hardwareAccelerated="false">
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.SettingActivity" >
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.WeatherActivity" 
+            android:hardwareAccelerated="true">                    
+        </activity>
+        <activity android:name="com.dealersaleschannel.tv.WeatherRadarActivity"
+            android:hardwareAccelerated="true">            
+        </activity>      
+        <activity android:name="com.dealersaleschannel.tv.AboutActivity" >
+        </activity>  
+    </application>
+
+</manifest>

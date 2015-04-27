@@ -1,0 +1,35 @@
+# view AndroidManifest.xml #generated:73
+-keep class com.dealersaleschannel.tv.AboutActivity { <init>(...); }
+
+# view res/layout/activity_equipment.xml #generated:37
+# view res/layout/activity_equipment2.xml #generated:57
+# view res/layout/activity_text.xml #generated:30
+-keep class com.dealersaleschannel.tv.AutoResizeTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.dealersaleschannel.tv.EquipmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.dealersaleschannel.tv.ImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.dealersaleschannel.tv.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.dealersaleschannel.tv.PreMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.dealersaleschannel.tv.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.dealersaleschannel.tv.TextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.dealersaleschannel.tv.VideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.dealersaleschannel.tv.WeatherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.dealersaleschannel.tv.WeatherRadarActivity { <init>(...); }
+

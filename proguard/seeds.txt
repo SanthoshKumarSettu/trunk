@@ -1,0 +1,174 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.dealersaleschannel.tv.AboutActivity
+com.dealersaleschannel.tv.AboutActivity: AboutActivity()
+com.dealersaleschannel.tv.AutoResizeTextView
+com.dealersaleschannel.tv.AutoResizeTextView: AutoResizeTextView(android.content.Context)
+com.dealersaleschannel.tv.AutoResizeTextView: AutoResizeTextView(android.content.Context,android.util.AttributeSet)
+com.dealersaleschannel.tv.AutoResizeTextView: AutoResizeTextView(android.content.Context,android.util.AttributeSet,int)
+com.dealersaleschannel.tv.AutoResizeTextView: float getCalculatedTextSize()
+com.dealersaleschannel.tv.AutoResizeTextView: void setOnResizeListener(com.dealersaleschannel.tv.AutoResizeTextView$OnTextResizeListener)
+com.dealersaleschannel.tv.AutoResizeTextView: void setTextSize(float)
+com.dealersaleschannel.tv.AutoResizeTextView: void setMaxTextSize(float)
+com.dealersaleschannel.tv.AutoResizeTextView: float getMaxTextSize()
+com.dealersaleschannel.tv.AutoResizeTextView: void setMinTextSize(float)
+com.dealersaleschannel.tv.AutoResizeTextView: float getMinTextSize()
+com.dealersaleschannel.tv.AutoResizeTextView: void setAddEllipsis(boolean)
+com.dealersaleschannel.tv.AutoResizeTextView: boolean getAddEllipsis()
+com.dealersaleschannel.tv.AutoResizeTextView: void setNoWrap(boolean)
+com.dealersaleschannel.tv.AutoResizeTextView: boolean getNoWrap()
+com.dealersaleschannel.tv.EquipmentActivity
+com.dealersaleschannel.tv.EquipmentActivity: EquipmentActivity()
+com.dealersaleschannel.tv.ImageActivity
+com.dealersaleschannel.tv.ImageActivity: ImageActivity()
+com.dealersaleschannel.tv.MainActivity
+com.dealersaleschannel.tv.MainActivity: MainActivity()
+com.dealersaleschannel.tv.PreMainActivity
+com.dealersaleschannel.tv.PreMainActivity: PreMainActivity()
+com.dealersaleschannel.tv.R$dimen: int activity_horizontal_margin
+com.dealersaleschannel.tv.R$dimen: int activity_vertical_margin
+com.dealersaleschannel.tv.R$drawable: int bg
+com.dealersaleschannel.tv.R$drawable: int ic_launcher
+com.dealersaleschannel.tv.R$id: int MainLayout
+com.dealersaleschannel.tv.R$id: int VideoView
+com.dealersaleschannel.tv.R$id: int about
+com.dealersaleschannel.tv.R$id: int aboutLayout
+com.dealersaleschannel.tv.R$id: int action_about
+com.dealersaleschannel.tv.R$id: int action_activate
+com.dealersaleschannel.tv.R$id: int action_restart
+com.dealersaleschannel.tv.R$id: int action_settings
+com.dealersaleschannel.tv.R$id: int action_sync
+com.dealersaleschannel.tv.R$id: int activity_equipment
+com.dealersaleschannel.tv.R$id: int activity_equipment2
+com.dealersaleschannel.tv.R$id: int activity_equipmentcustombackground
+com.dealersaleschannel.tv.R$id: int activity_weather
+com.dealersaleschannel.tv.R$id: int equipmentFooterImageView
+com.dealersaleschannel.tv.R$id: int equipmentHeaderImageView
+com.dealersaleschannel.tv.R$id: int equipmentImageView
+com.dealersaleschannel.tv.R$id: int equipmentLinearLayout1
+com.dealersaleschannel.tv.R$id: int equipmentLinearLayout2
+com.dealersaleschannel.tv.R$id: int equipmentLinearLayout3
+com.dealersaleschannel.tv.R$id: int equipmentLinearLayout4
+com.dealersaleschannel.tv.R$id: int equipmentTextView
+com.dealersaleschannel.tv.R$id: int equipmentTextView2
+com.dealersaleschannel.tv.R$id: int imageFooterImageView
+com.dealersaleschannel.tv.R$id: int imageHeaderImageView
+com.dealersaleschannel.tv.R$id: int imageLayout
+com.dealersaleschannel.tv.R$id: int imageLinearLayout1
+com.dealersaleschannel.tv.R$id: int imageLinearLayout2
+com.dealersaleschannel.tv.R$id: int imageLinearLayout3
+com.dealersaleschannel.tv.R$id: int imageView
+com.dealersaleschannel.tv.R$id: int text
+com.dealersaleschannel.tv.R$id: int textFooterImageView
+com.dealersaleschannel.tv.R$id: int textHeaderImageView
+com.dealersaleschannel.tv.R$id: int textLayout
+com.dealersaleschannel.tv.R$id: int textLinearLayout1
+com.dealersaleschannel.tv.R$id: int textLinearLayout2
+com.dealersaleschannel.tv.R$id: int textLinearLayout3
+com.dealersaleschannel.tv.R$id: int weatherFooterImageView
+com.dealersaleschannel.tv.R$id: int weatherHeaderImageView
+com.dealersaleschannel.tv.R$id: int weatherLinearLayout1
+com.dealersaleschannel.tv.R$id: int weatherLinearLayout2
+com.dealersaleschannel.tv.R$id: int weatherLinearLayout3
+com.dealersaleschannel.tv.R$id: int weatherWebView
+com.dealersaleschannel.tv.R$id: int welcome
+com.dealersaleschannel.tv.R$layout: int activity_about
+com.dealersaleschannel.tv.R$layout: int activity_equipment
+com.dealersaleschannel.tv.R$layout: int activity_equipment2
+com.dealersaleschannel.tv.R$layout: int activity_equipmentcustombackground
+com.dealersaleschannel.tv.R$layout: int activity_image
+com.dealersaleschannel.tv.R$layout: int activity_main
+com.dealersaleschannel.tv.R$layout: int activity_text
+com.dealersaleschannel.tv.R$layout: int activity_video
+com.dealersaleschannel.tv.R$layout: int activity_weather
+com.dealersaleschannel.tv.R$menu: int main
+com.dealersaleschannel.tv.R$menu: int settings
+com.dealersaleschannel.tv.R$string: int about
+com.dealersaleschannel.tv.R$string: int action_settings
+com.dealersaleschannel.tv.R$string: int activate
+com.dealersaleschannel.tv.R$string: int app_name
+com.dealersaleschannel.tv.R$string: int image
+com.dealersaleschannel.tv.R$string: int pref_channel
+com.dealersaleschannel.tv.R$string: int pref_channel_summary
+com.dealersaleschannel.tv.R$string: int pref_channel_title
+com.dealersaleschannel.tv.R$string: int pref_channel_zero
+com.dealersaleschannel.tv.R$string: int pref_is_active
+com.dealersaleschannel.tv.R$string: int pref_password
+com.dealersaleschannel.tv.R$string: int pref_password_defaultText
+com.dealersaleschannel.tv.R$string: int pref_password_summary
+com.dealersaleschannel.tv.R$string: int pref_password_title
+com.dealersaleschannel.tv.R$string: int pref_updateInterval
+com.dealersaleschannel.tv.R$string: int pref_updateInterval_summary
+com.dealersaleschannel.tv.R$string: int pref_updateInterval_title
+com.dealersaleschannel.tv.R$string: int pref_updateInterval_value
+com.dealersaleschannel.tv.R$string: int pref_userName_defaultText
+com.dealersaleschannel.tv.R$string: int pref_userName_summary
+com.dealersaleschannel.tv.R$string: int pref_userName_title
+com.dealersaleschannel.tv.R$string: int pref_username
+com.dealersaleschannel.tv.R$string: int pref_webViewZoomLevel
+com.dealersaleschannel.tv.R$string: int pref_webViewZoomLevel_defaultText
+com.dealersaleschannel.tv.R$string: int pref_webViewZoomLevel_summary
+com.dealersaleschannel.tv.R$string: int pref_webViewZoomLevel_title
+com.dealersaleschannel.tv.R$string: int restart
+com.dealersaleschannel.tv.R$string: int sync
+com.dealersaleschannel.tv.R$string: int welcome
+com.dealersaleschannel.tv.R$style: int AppBaseTheme
+com.dealersaleschannel.tv.R$style: int AppTheme
+com.dealersaleschannel.tv.R$xml: int settings
+com.dealersaleschannel.tv.SettingActivity
+com.dealersaleschannel.tv.SettingActivity: SettingActivity()
+com.dealersaleschannel.tv.Slide
+com.dealersaleschannel.tv.Slide: android.os.Parcelable$Creator CREATOR
+com.dealersaleschannel.tv.TextActivity
+com.dealersaleschannel.tv.TextActivity: TextActivity()
+com.dealersaleschannel.tv.VideoActivity
+com.dealersaleschannel.tv.VideoActivity: VideoActivity()
+com.dealersaleschannel.tv.WeatherActivity
+com.dealersaleschannel.tv.WeatherActivity: WeatherActivity()
+com.dealersaleschannel.tv.WeatherRadarActivity
+com.dealersaleschannel.tv.WeatherRadarActivity: WeatherRadarActivity()

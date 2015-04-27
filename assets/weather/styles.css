@@ -1,0 +1,298 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  zoom:0;
+  /*display:none;*/
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img{display:block;margin:0;padding:0;}
+.clear-fix{clear:both;}
+h1, h2, h3, h4 {
+    margin:0;
+    padding:0;
+}
+/**********************************************************/
+
+body{
+	/*background-image:url('bg.jpg');*/
+	background-repeat:no-repeat;
+	background-position:center top;
+	/*background-color:#140fb1;*/
+	background:transparent;
+	margin:0;
+}
+#locale-container{
+	width:100%;
+	height:68px;
+  	background-color: #1320a3; 
+    background-image: url('location-head.png'); 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3442d2), to(#0c1994));
+    background-image: -webkit-linear-gradient(top, #3442d2, #0c1994); 
+    background-image:    -moz-linear-gradient(top, #3442d2, #0c1994);
+    background-image:     -ms-linear-gradient(top, #3442d2, #0c1994);
+    background-image:      -o-linear-gradient(top, #3442d2, #0c1994);
+    border-bottom:solid 5px #e0c42b;
+    -moz-box-shadow: 0 0 3px 3px #13429e;
+	-webkit-box-shadow: 0 0 3px 3px #13429e;
+	box-shadow: 0 0 3px 3px #13429e;
+	padding:12px 0 0 0;
+}
+#locale-container .location-holder{
+	margin:0 0 0 12px;;
+	padding:4px 10px 4px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:36pt;	
+	width:auto;
+	display:table;
+	position:relative;
+	border-radius:5px;
+	background-image:url('locale_bg.png');
+	background-repeat:repeat-x;
+}
+#locale-container h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:40px;	
+	width:auto;
+	display:table;
+	margin:0;
+	padding:0;
+	color:#e0c42b;
+	text-shadow: 0.05em 0.05em 0.1em #080b54;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smooth: always;
+}
+#nowweather-holder{
+	width:99%;
+	margin:20px auto 65px auto;
+	position:relative;
+}
+#nowweather-holder .col1{
+	float:left;
+	width:20%;
+	min-height:270px;
+	vertical-align:top;
+	display:inline;
+}
+#nowweather-holder .col2{
+	float:left;
+	width:26%;
+	min-height:270px;
+	vertical-align:top;
+	display:inline;
+}
+#nowweather-holder .col3{
+	float:right;
+	width:50%;
+	min-height:270px;
+	vertical-align:top;
+	display:inline;
+}
+#nowweather-holder .col3 table{
+	vertical-align:top;
+}
+#nowweather-holder .col3 table td{
+	vertical-align:top;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	font-size:38px;
+	text-shadow: 0.05em 0.05em 0.2em #080b54;
+	height:75px;
+}
+#nowweather-holder h2.now{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:120px;
+	line-height:100px;
+	z-index:0;
+	margin:0;
+	padding:0;
+	color:#dbdbdb;
+	text-shadow: 0.05em 0.05em 0.1em #080b54;
+}
+#nowweather-holder h2.now-temp{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:180px;
+	line-height:140px;
+	z-index:0;
+	margin:0 0 14px 0;
+	padding:0;
+	vertical-align:top;
+	color:#e0c42b;
+	text-shadow: 0.05em 0.05em 0.1em #080b54;
+}
+#nowweather-holder .now-forecast-ylw{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:56px;
+	height:56px;
+	z-index:0;
+	margin:0 0 14px 0;
+	padding:0;
+	color:#e0c42b;
+	text-shadow: 0.05em 0.05em 0.1em #080b54;
+	text-align:right;
+	display:block;
+}
+#nowweather-holder .now-feels{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:38px;
+	z-index:0;
+	margin:0;
+	padding:0;
+	color:#fff;
+	text-shadow: 0.05em 0.05em 0.1em #080b54;
+	position:relative;
+	text-align:right;
+	display:block;
+}
+#nowweather-holder .smaller{
+	font-size:120px;
+	line-height:100px;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+}
+
+
+#forecast-holder{
+	/*width:98%;*/
+	margin:0px auto 10px auto;
+	position:relative;
+	display:table;
+}
+#forecast-holder .forecast-bx{
+	width:238px;
+	height:482px;
+	float:left;	
+    position: relative;
+    background-color:#5191e1;
+    padding:6px;
+    border:solid 14px #0a0c4b;
+    margin:0 14px 0 0;
+}
+#forecast-holder .day-head{
+	width:100%;
+	height:65px;
+	line-height:65px;
+	background-image:url('day-head.gif');
+	background-repeat:repeat-x;
+	border-bottom:solid 6px #f8c335;
+	font-family:Arial;
+	font-weight:bold;
+	color:#1b1b1b;
+	font-size:40px;
+	text-align:center;
+}
+#forecast-holder .forecast-content{
+	width:100%;
+	height:281px;
+	background-color:#1f283c;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	line-height:36px;
+	text-align:center;
+	color:#fff;
+	text-shadow: 0.05em 0.05em 0.1em #0e131e;
+
+}
+#forecast-holder .high{
+	width:100%;
+	height:65px;
+	line-height:65px;
+	background-image:url('high-bg.gif');
+	background-repeat:repeat-x;
+	font-family:Arial;
+	font-weight:bold;
+	color:#1b1b1b;
+	font-size:40px;
+	text-align:center;
+
+}
+#forecast-holder .low{
+	width:100%;
+	height:65px;
+	line-height:65px;
+	background-image:url('low-bg.gif');
+	background-repeat:repeat-x;
+	font-family:Arial;
+	font-weight:bold;
+	color:#fff;
+	font-size:40px;
+	text-align:center;
+
+}
+
+#forecast-holder .forecast-bx-last{
+width:238px;
+	height:482px;
+	float:left;	
+    position: relative;
+    background-color:#5191e1;
+    padding:6px;
+    border:solid 14px #0a0c4b;
+    margin:0;
+}
+
+#alerts-holder{
+	width:100%;
+	margin:0px auto 5px auto;
+	position:relative;
+	font-family:Arial;
+	font-weight:bold;
+	color: #ffffff;
+	font-size:25px;
+	padding-bottom:30px;
+	background-color:#E3170D
+
+	
+}
+
+#footer{
+	width:99%;
+	height:80px;
+	margin:0 auto 0 auto;
+	position:relative;
+	padding:10px 0 0 0;
+	
+}
+
+.align-left{
+	text-align:left;
+}
+.align-center{
+	text-align:center;
+}
+.align-right{
+	text-align:right;
+}
+.zoom-control
+{ 
+  width:1920;
+  height:1080;
+}

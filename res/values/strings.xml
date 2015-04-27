@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dealer Sales Channel Tv</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to Dealer Sales Channel Tv</string>
+    <string name="image">Image</string>
+    <string name="pref_channel_zero">Enter your channel number</string>
+    <string name="pref_channel_title">Channel #</string>
+    <string name="pref_channel">pref_channel</string>
+    <string name="pref_channel_summary">Set this to your tv channel number</string>
+    <string name="pref_userName_defaultText">Enter your user name</string>
+    <string name="pref_userName_title">User Name</string>
+    <string name="pref_userName_summary">Your User Name goes here.</string>
+    <string name="pref_password_defaultText">Enter your password</string>
+    <string name="pref_password_title">Password</string>
+    <string name="pref_password">pref_password</string>
+    <string name="pref_password_summary">Your password goes here. Passwords are case sensitive.</string>    
+    <string name="pref_zip_code_defaultText">Enter your zip code</string>
+    <string name="pref_zip_code_title">Zip Code</string>
+    <string name="pref_zip_code">pref_zip_code</string>
+    <string name="pref_zip_code_summary">Your zip code goes here.</string>    
+    <string name="pref_external_storage_path_value">/mnt/media</string>
+    <string name="pref_external_storage_path_title">External Storage Path</string>
+    <string name="pref_external_storage_path">pref_external_storage_path</string>
+    <string name="pref_external_storage_path_summary">Your external storage path goes here.</string>    
+    <string name="pref_use_internal_storage_title">Use Internal Storage</string>
+    <string name="pref_use_internal_storage">pref_use_internal_storage</string>
+    <string name="pref_use_internal_storage_summary">Uncheck this box if you prefer to store your files in an external USB drive.</string>    
+    <string name="pref_username">pref_userName</string>
+    <string name="pref_webViewZoomLevel_defaultText">100</string>
+    <string name="pref_webViewZoomLevel_title">WebView Zoom Level</string>
+    <string name="pref_webViewZoomLevel">pref_webViewZoomLevel</string>
+    <string name="pref_webViewZoomLevel_summary">Adjust this to control the zoom level of weather screens.  100 is the default, 
+    use a lower value to zoom out, and use a higher value to zoom in.</string>
+     <string name="pref_updateInterval_value">15</string>
+    <string name="pref_updateInterval_title">Update Interval</string>
+    <string name="pref_updateInterval">pref_updateInterval</string>
+    <string name="pref_updateInterval_summary">Adjust this to control to set the update interval in minutes for your slideshow.  
+        The value represents the number of minutes the application will wait before it checks for updates.</string>
+    <string name="restart">Restart</string>
+    <string name="sync">Sync</string>
+    <string name="activate">Activate</string>
+    <string name="about">About</string>
+    <string name="pref_is_active">IsActive</string>
+</resources>

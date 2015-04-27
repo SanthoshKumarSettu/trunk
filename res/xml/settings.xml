@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="main_preferencescreen">
+    <EditTextPreference 
+        android:hint="@string/pref_channel_zero" 
+        android:title="@string/pref_channel_title" 
+        android:key="@string/pref_channel" 
+        android:summary="@string/pref_channel_summary"/>  
+	    <EditTextPreference
+	         android:hint="@string/pref_userName_defaultText" 
+	        android:title="@string/pref_userName_title" 
+	        android:key="@string/pref_username" 
+	        android:summary="@string/pref_userName_summary" />
+	    <EditTextPreference
+	        android:hint="@string/pref_password_defaultText" 
+	        android:title="@string/pref_password_title" 
+	        android:key="@string/pref_password" 
+	        android:summary="@string/pref_password_summary"
+	        android:inputType="textPassword" />
+	<EditTextPreference
+	        android:hint="@string/pref_zip_code_defaultText" 
+	        android:title="@string/pref_zip_code_title" 
+	        android:key="@string/pref_zip_code" 
+	        android:summary="@string/pref_zip_code_summary"
+	 />
+    <CheckBoxPreference
+	        android:title="@string/pref_use_internal_storage_title" 
+	        android:key="@string/pref_use_internal_storage" 
+	        android:summary="@string/pref_use_internal_storage_summary"
+            android:defaultValue="false"/>
+    <EditTextPreference        
+        android:defaultValue="@string/pref_external_storage_path_value" 
+        android:title="@string/pref_external_storage_path_title" 
+        android:key="@string/pref_external_storage_path" 
+        android:summary="@string/pref_external_storage_path_summary"
+    />
+    <EditTextPreference
+         android:defaultValue="@string/pref_updateInterval_value" 
+        android:title="@string/pref_updateInterval_title" 
+        android:key="@string/pref_updateInterval" 
+        android:summary="@string/pref_updateInterval_summary"
+        />
+    <EditTextPreference
+         android:defaultValue="@string/pref_webViewZoomLevel_defaultText" 
+        android:title="@string/pref_webViewZoomLevel_title" 
+        android:key="@string/pref_webViewZoomLevel" 
+        android:summary="@string/pref_webViewZoomLevel_summary"
+        />
+</PreferenceScreen>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextActivity"  >
+
+    <LinearLayout
+        android:id="@+id/textLinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+		android:layout_weight="0.1"
+		>
+
+        <ImageView
+            android:id="@+id/textHeaderImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+		android:layout_weight="0.8" >
+	<com.dealersaleschannel.tv.AutoResizeTextView 
+	     android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"            
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:maxLines="20"
+            android:gravity="center"      
+            android:textStyle="bold"              
+	    />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textLinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0px" 
+        android:layout_weight="0.1">
+
+        <ImageView
+            android:id="@+id/textFooterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+</LinearLayout>

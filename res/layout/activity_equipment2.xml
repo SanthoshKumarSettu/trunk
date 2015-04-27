@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_equipment2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EquipmentActivity" >
+
+    <LinearLayout
+        android:id="@+id/equipmentLinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+
+        <ImageView
+            android:id="@+id/equipmentHeaderImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/equipmentLinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+
+        <TextView
+            android:id="@+id/equipmentTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text=""
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/equipmentLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.7" >
+
+        <ImageView
+            android:id="@+id/equipmentImageView"
+            android:layout_width="960px"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+             />
+
+        <com.dealersaleschannel.tv.AutoResizeTextView
+            android:id="@+id/equipmentTextView"
+            android:layout_width="960px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+       
+            android:paddingBottom="10dp"
+            android:text=""
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:paddingLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/equipmentLinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+
+        <ImageView
+            android:id="@+id/equipmentFooterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weather"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherActivity" >
+
+    <LinearLayout
+        android:id="@+id/weatherLinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+        <ImageView
+            android:id="@+id/weatherHeaderImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weatherLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.8">        
+        <WebView
+            android:id="@+id/weatherWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="50dp"      
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weatherLinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+        <ImageView
+            android:id="@+id/weatherFooterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop"  />    
+    </LinearLayout>
+</LinearLayout>
